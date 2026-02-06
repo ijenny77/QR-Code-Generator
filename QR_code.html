@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(18, 21, 34);
+        }
+        .generator{
+            background-color: rgb(32, 36, 49);
+            border: 1px solid rgb(32, 36, 49);
+            border-radius: 10px;
+            width: 25%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 7rem;
+            padding-bottom:1rem;
+        }
+        #heading{
+            text-align: center;
+            color: white;
+        }
+        #input{
+            width: 85%;
+            height: 4vh;
+            margin-left: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 5px;
+            padding-left: 0.6rem;
+            background-color: rgb(23,26,36);
+            color: white;
+        }
+        #button{
+            width: 90%;
+            height: 5vh;
+            margin-left: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 5px;
+            background-color: rgb(30,84, 207);
+            color: white;
+        }
+        #download{
+            margin-left: 9rem;
+            color: rgb(163, 162, 249);
+        }
+        .image{
+            display:flex;
+            justify-content: center;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="generator">
+        <h1 id="heading">QR Code Generator</h1>
+        <input type="text" name="url-input" id="input" placeholder="Enter text or URL"><br>
+        <button id="button">Generate QR</button><br>
+        <div class="image">
+            <img src="qr_img.png" id="image" alt="image of the url">
+        </div>
+        <a href="#" id="download">Download QR</a>
+    </div>
+    
+</body>
+</html>
