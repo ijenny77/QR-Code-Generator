@@ -8,6 +8,7 @@ inquirer
         name:"URL",
     }
   ])
+  
   .then((answers) => {
     const url = answers.URL;
     const qr_svg = qr.image(url);
@@ -18,6 +19,9 @@ inquirer
       console.log("The file has been saved");
     })
   })
+
+
+
   .catch((error) => {
     if (error.isTtyError) {
       // Prompt couldn't be rendered in the current environment
