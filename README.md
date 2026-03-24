@@ -10,8 +10,8 @@ Our QR Code Generator was created to make this process fast, simple, and fun. Wi
 
 We wanted a solution that is:
 
-⚡ Fast
-🎨 Customizable 
-💾 Downloadable 
-🌍 Accessible 
+⚡ Fast  
+🎨 Customizable   
+💾 Downloadable   
+🌍 Accessible   
 
